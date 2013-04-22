@@ -4,7 +4,7 @@ title: lisblog
 author: tonie
 ---
 
-<div class="main_content" class="inner">
+<div class="main_content">
 	<navig>
 	 
 		sasdasda<br/>
@@ -32,7 +32,7 @@ author: tonie
 
 </div>
 
-<div class="main_content" class="inner">`
+<div class="main_content">`
 
 	someasdiw
 	<img src="images/sprite_download.png" style="height:100px;width:100px" />
