@@ -41,10 +41,11 @@ author: tonie
 
 
 <% for post in site.posts %>
-<label class="main_content">
+	<label class="main_content">
 + {{ post.title }}
+	</label>
 <% endfor %>
-</label>
+
 
 
 
