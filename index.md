@@ -31,7 +31,7 @@ author: tonie
 
 </div>
 
-<div class="main_content">`
+<div class="main_content">
 
 	someasdiw
 	<img src="images/sprite_download.png" style="height:100px;width:100px" />
@@ -39,13 +39,12 @@ author: tonie
 </div>
 
 
-
+<label class="main_content">
 <% for post in site.posts %>
-	<label class="main_content">
 + {{ post.title }}
-	</label>
+	
 <% endfor %>
-
+</label>
 
 
 
