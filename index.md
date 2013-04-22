@@ -5,7 +5,7 @@ author: tonie
 ---
 ## {{ page.title }}
 
-<section class="main_content" class="inner">
+ <section class="main_content" class="inner">
 
 <h3>Welcome to GitHub Pages.</h3>
 
