@@ -39,13 +39,13 @@ author: tonie
 </div>
 
 
-
-{% for post in site.posts %}
 <label class="main_content">
-+ {{ post.title }}	
-</label>
-{% endfor %}
+{% for post in site.posts %}
 
++ {{ post.title }}	
+
+{% endfor %}
+</label>
 
 
 
