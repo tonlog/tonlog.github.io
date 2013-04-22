@@ -4,9 +4,7 @@ title: lisblog
 author: tonie
 ---
 
-<p class="main_content" class="inner">
-## {{ page.title }}
-
+<div class="main_content" class="inner">
 	<navig>
 	 
 		sasdasda<br/>
@@ -19,9 +17,6 @@ author: tonie
 	</navig>
 
 	<h3>Welcome to GitHub Pages.</h3>
-	
-+ A
-+ B
 
 	<table>
 	<tr><td>asd</td></tr>
@@ -35,14 +30,11 @@ author: tonie
 	</code></pre>
 	[somewhere]( )
 
+</div>
 
-
-
-</p>
-
-<p class="main_content" class="inner">`
+<div class="main_content" class="inner">`
 
 	someasdiw
 	<img src="images/sprite_download.png" style="height:100px;width:100px" />
 
-</p>
+</div>
