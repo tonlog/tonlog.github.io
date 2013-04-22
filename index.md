@@ -3,9 +3,9 @@ layout: post
 title: lisblog
 author: tonie
 ---
-## {{ page.title }}
 
  <section class="main_content" class="inner">
+## {{ page.title }}
 
 <h3>Welcome to GitHub Pages.</h3>
 
