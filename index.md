@@ -7,7 +7,8 @@ author: tonie
 <div class="main_content">
 	<navig>
 	 
-		<a id="forkme_banner" href="https://github.com/tonlog/raven-404">See Me @Github</a><br/>
+		<a id="forkme_banner" href="https://github.com/tonlog/raven-404">See Me @Github</a>
+		<a id="forkme_banner" href="https://github.com/tonlog/raven-404">See Me @Github</a>
 		sasdasda<br/>
 		sasdasda<br/>
 		sasdasda<br/>
