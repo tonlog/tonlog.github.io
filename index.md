@@ -42,7 +42,7 @@ author: tonie
 <div class="main_content">
 {% for post in site.posts %}
 
-+ {{ post.title }}	
+<blockquote>{{ post.title }}<br/><blockquote>
 
 {% endfor %}
 </div>
