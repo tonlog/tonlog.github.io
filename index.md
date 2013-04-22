@@ -1,13 +1,13 @@
-﻿---
+---
 layout: default
 title: lisblog
 author: tonie
 ---
 ## {{ page.title }}
 
-      <section class="main_content" class="inner">
+<section class="main_content" class="inner">
 
-        <h3>Welcome to GitHub Pages.</h3>
+<h3>Welcome to GitHub Pages.</h3>
 
 	
 	<ul>
@@ -30,7 +30,7 @@ $ git checkout gh-pages
 
 
 
-      </section>
+</section>
 
  <section class="main_content" class="inner">
 
