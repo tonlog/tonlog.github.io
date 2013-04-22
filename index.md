@@ -42,11 +42,11 @@ author: tonie
 <div class="main_content">
 {% for post in site.posts %}
 
-<blockquote>{{ post.title }}<br/><blockquote>
+> {{ post.title }}
 
 {% endfor %}
 </div>
 
 
 
-
+> asd
