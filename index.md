@@ -1,9 +1,9 @@
 ﻿---
-layout: post
+layout: default
 title: lisblog
 author: tonie
 ---
-
+## {{ page.title }}
 
       <section class="main_content" class="inner">
 
