@@ -4,11 +4,11 @@ title: lisblog
 author: tonie
 ---
 
- <section class="main_content" class="inner">
+`<section class="main_content" class="inner">`
 ## {{ page.title }}
 
 
-<navig>
+`<navig>`
 	 
 sasdasda<br/>
 sasdasda<br/>
@@ -17,7 +17,7 @@ sasdasda<br/>
 sasdasda<br/>
 sasdasda<br/>sasdasda<br/>sasdasda<br/>sasdasda<br/>sasdasda<br/>
 
-</navig>
+`</navig>`
 
 
 
@@ -40,19 +40,19 @@ $ cd your_repo_root/repo_name
 $ git fetch origin
 $ git checkout gh-pages
 </code></pre>
-<a href="">somewhere</a>
+[somewhere]( )
 
 
 
 
-</section>
+`</section>`
 
- <section class="main_content" class="inner">
+`<section class="main_content" class="inner">`
 
-<p>somefwfa</p>
+someasdiw
 <img src="images/sprite_download.png" style="height:100px;width:100px" />
 
-</section>
+`</section>`
 
 
 
