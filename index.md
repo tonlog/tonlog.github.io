@@ -8,7 +8,6 @@ author: tonie
 	<navig>
 	 
 		<a id="forkme_banner" href="https://github.com/tonlog/raven-404">See Me @Github</a>
-		<a id="forkme_banner" href="https://github.com/tonlog/raven-404">See Me @Github</a>
 		sasdasda<br/>
 		sasdasda<br/>
 		sasdasda<br/>
@@ -33,7 +32,7 @@ author: tonie
 </div>
 
 <div class="main_content">
-
+	<a id="forkme_banner" href="https://github.com/tonlog/raven-404">See Me @Github</a>
 	someasdiw
 	<img src="images/sprite_download.png" style="height:100px;width:100px" />
 
