@@ -28,7 +28,6 @@ author: tonie
 	$ git fetch origin
 	$ git checkout gh-pages
 	</code></pre>
-	[somewhere]( )
 
 </div>
 
