@@ -37,3 +37,15 @@ author: tonie
 	<img src="images/sprite_download.png" style="height:100px;width:100px" />
 
 </div>
+
+
+
+<% for post in site.posts %>
+<label class="main_content">
++ {{ post.title }}
+<% endfor %>
+</label>
+
+
+
+
