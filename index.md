@@ -4,7 +4,7 @@ title: lisblog
 author: tonie
 ---
 
-<section class="main_content" class="inner">
+<p class="main_content" class="inner">
 ## {{ page.title }}
 
 	<navig>
@@ -38,11 +38,11 @@ author: tonie
 
 
 
-</section>
+</p>
 
-<section class="main_content" class="inner">`
+<p class="main_content" class="inner">`
 
 	someasdiw
 	<img src="images/sprite_download.png" style="height:100px;width:100px" />
 
-</section>
+</p>
