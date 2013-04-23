@@ -21,8 +21,6 @@ author: tonie
 someasdiw
 <img src="images/sprite_download.png" style="height:100px;width:100px" />
 
-</div>
-<div class="main_content">
 <br/>
 {% for post in site.posts %}
 
