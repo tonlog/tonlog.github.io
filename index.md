@@ -1,48 +1,33 @@
 ---
-layout: post
+layout: index
 title: lisblog
 author: tonie
 ---
+<h3>Welcome to GitHub Pages.</h3>
 
-<div class="main_content">
-	<navig>
-	 
-		<a id="forkme_banner" href="https://github.com/tonlog/raven-404">See Me @Github</a>
-		sasdasda<br/>
-		sasdasda<br/>
-		sasdasda<br/>
-		sasdasda<br/>
-		sasdasda<br/>sasdasda<br/>sasdasda<br/>sasdasda<br/>sasdasda<br/>
-
-	</navig>
-
-	<h3>Welcome to GitHub Pages.</h3>
-
-	<table>
+<table>
 	<tr><td>asd</td></tr>
 	<tr><td>qwe</td></tr>
-	</table>
+</table>
 
-	<pre><code>
-	$ cd your_repo_root/repo_name
-	$ git fetch origin
-	$ git checkout gh-pages
-	</code></pre>
+	<pre>
+		<code>
+			$ cd your_repo_root/repo_name
+			$ git fetch origin
+			$ git checkout gh-pages
+		</code>
+	</pre>
 
-</div>
-
-<div class="main_content">
-	<a id="forkme_banner" href="https://github.com/tonlog/raven-404">See Me @Github</a>
-	someasdiw
-	<img src="images/sprite_download.png" style="height:100px;width:100px" />
+someasdiw
+<img src="images/sprite_download.png" style="height:100px;width:100px" />
 
 </div>
-
-
 <div class="main_content">
+<br/>
 {% for post in site.posts %}
 
-<blockquote><p> {{ post.title }} </p></blockquote> 
+> [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+
 
 {% endfor %}
-</div>
+

@@ -1,0 +1,16 @@
+---
+layout: index
+title: ±êÇ©
+author: tonie
+---
+<div id="related">
+  <h2>±êÇ©Á÷</h2>
+{% for tag in site.tags %}
+{{ tag[0] }}
+<ul>
+{% for post in tag[1] %} 
+<li>{{ post.title }}</li>
+{% endfor %}  
+</ul>
+{% endfor %}
+</div>

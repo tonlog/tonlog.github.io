@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ten Lessons from GitHub's First Year
+tags: ['miao', 'wang']
 ---
 
 h1. {{ page.title }}

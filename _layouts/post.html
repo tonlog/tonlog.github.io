@@ -1,19 +1,30 @@
 ---
 layout: default
 ---
+<navig>
+</ul>
+tags:
+<ul class="posts">
+{% for tag in page.tags limit:3 %}
+<li>{{ tag }}</li>
+{% endfor %}
+</ul>
+categories:
+<ul class="posts">{% for cat in page.categories limit:3 %}
+<li>{{ cat }}</li>
+{% endfor %}
+</ul>
+</navig>
 
+<div>
 {{ content }}
+</div>
 
-
-
-
-
-
-<!---<div id="related">
+<div id="related">
   <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-</div>--->
+</div>
