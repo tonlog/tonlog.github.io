@@ -3,6 +3,7 @@ layout: index
 title: Tags 
 author: tonie
 ---
+  <a id="forkme_banner" href="https://github.com/tonlog/raven-404">See Me @Github</a>
 {% include div_left.textile %}
   <h2>标签列表</h2>
   {% for tag in site.tags %}
@@ -10,7 +11,7 @@ author: tonie
     {{ tag[0] }}
     <ul>
       {% for post in tag[1] %} 
-        <li>{{ post.title }}</li>
+        <li>[{{ post.title }}]({{ site.baseurl }}{{ post.url }})</li>
       {% endfor %}  
     </ul>
     {% include div_right.textile %}
