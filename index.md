@@ -3,7 +3,7 @@ layout: index
 title: lisblog
 author: tonie
 ---
-<h3>Welcome to GitHub Pages.</h3>
+<h3>欢迎到GitHub Pages.</h3>
 
 <table>
 	<tr><td>asd</td></tr>
