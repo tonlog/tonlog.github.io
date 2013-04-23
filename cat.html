@@ -3,7 +3,7 @@ layout: index
 title: 标签们 
 author: tonie
 ---
-<div>
+{% include div_left.textile %}
   <h2>Divide By Tags :)<h2>
 {% for tag in site.tags %}
 {{ tag[0] }}
@@ -13,4 +13,4 @@ author: tonie
 {% endfor %}  
 </ul>
 {% endfor %}
-</div>
+{% include div_right.textile %}
