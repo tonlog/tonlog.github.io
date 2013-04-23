@@ -5,12 +5,14 @@ author: tonie
 ---
 {% include div_left.textile %}
   <h2>分类列表<h2>
-{% for cate in site.categories %}
-{{ cate[0] }}
-<ul>
-{% for post in cate[1] %} 
-  <li>{{ post.title }}</li>
-{% endfor %}  
-</ul>
-{% endfor %}
+  {% for cate in site.categories %}
+    <div id="{{ cate[0] }}">
+      {{ cate[0] }}
+      <ul>
+        {% for post in cate[1] %} 
+          <li>{{ post.title }}</li>
+        {% endfor %}  
+      </ul>
+    {% include div_right.textile %}
+  {% endfor %}
 {% include div_right.textile %}
