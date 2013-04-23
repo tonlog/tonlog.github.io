@@ -25,7 +25,7 @@ someasdiw
 {% for post in site.posts %}
 
 > [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-{% post.content[1][0, 300] %}
+{{post.content}}
 <br/>
 
 {% endfor %}
