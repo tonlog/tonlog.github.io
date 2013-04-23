@@ -1,0 +1,16 @@
+---
+layout: index
+title: Tags 
+author: tonie
+---
+{% include div_left.textile %}
+  <h2>±Í«©¡–±Ì<h2>
+{% for tag in site.tags %}
+{{ tag[0] }}
+<ul>
+{% for post in tag[1] %} 
+  <li>{{ post.title }}</li>
+{% endfor %}  
+</ul>
+{% endfor %}
+{% include div_right.textile %}

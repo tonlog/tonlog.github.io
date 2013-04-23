@@ -1,14 +1,14 @@
----
+﻿---
 layout: index
-title: 标签们 
+title: Categories LISt
 author: tonie
 ---
 {% include div_left.textile %}
-  <h2>Divide By Tags :)<h2>
-{% for tag in site.tags %}
-{{ tag[0] }}
+  <h2>分类列表<h2>
+{% for cate in site.categories %}
+{{ cate[0] }}
 <ul>
-{% for post in tag[1] %} 
+{% for post in cate[1] %} 
   <li>{{ post.title }}</li>
 {% endfor %}  
 </ul>
