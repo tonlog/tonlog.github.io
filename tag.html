@@ -5,12 +5,14 @@ author: tonie
 ---
 {% include div_left.textile %}
   <h2>标签列表</h2>
-{% for tag in site.tags %}
-{{ tag[0] }}
-<ul>
-{% for post in tag[1] %} 
-  <li>{{ post.title }}</li>
-{% endfor %}  
-</ul>
-{% endfor %}
+  {% for tag in site.tags %}
+    <div id="{{ tag[0] }}">
+    {{ tag[0] }}
+    <ul>
+      {% for post in tag[1] %} 
+        <li>{{ post.title }}</li>
+      {% endfor %}  
+    </ul>
+    {% include div_right.textile %}
+  {% endfor %}
 {% include div_right.textile %}
