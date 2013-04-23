@@ -28,6 +28,5 @@ someasdiw
 
 > [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 
-
 {% endfor %}
 
