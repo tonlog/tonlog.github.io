@@ -3,6 +3,7 @@ layout: index
 title: Categories LISt
 author: tonie
 ---
+  <a id="forkme_banner" href="https://github.com/tonlog/raven-404">See Me @Github</a>
 {% include div_left.textile %}
   <h2>分类列表<h2>
   {% for cate in site.categories %}
@@ -10,7 +11,7 @@ author: tonie
       {{ cate[0] }}
       <ul>
         {% for post in cate[1] %} 
-          <li>{{ post.title }}</li>
+          <li>[{{ post.title }}]({{ site.baseurl }}{{ post.url }})</li>
         {% endfor %}  
       </ul>
     {% include div_right.textile %}
