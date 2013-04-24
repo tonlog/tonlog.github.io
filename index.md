@@ -5,11 +5,11 @@ author: tonie
 ---
 <h3>欢迎到GitHub Pages.</h3>
 
-<!---<table>
+<table>
 	<tr><td>asd</td></tr>
 	<tr><td>qwe</td></tr>
 </table>
-
+<!---
 	<pre>
 		<code>
 			$ cd your_repo_root/repo_name
