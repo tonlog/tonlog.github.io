@@ -15,7 +15,7 @@ author: tonie
           {% if post.tags.size > 0 %}
             with tags: 
             {% for tag in post.tags %}
-              {{ tag }}
+              <a href="">{{ tag }}</a>
             {% endfor %}
           {% endif %}
         </li>
