@@ -14,7 +14,15 @@ author: tonie
 
 {% for post in site.posts limit: 2 %}
 <hr/>
-> 我的LISt:
+> {% if post.tag.size > 0 %}
+    关于 
+    {% for tag in post.tags %}
+      <a href="/tag.html#{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+  {% else %}
+    我
+  {% endif %}
+  的LISt:
 > {{ post.content }}
 </br>
 
