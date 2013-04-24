@@ -14,11 +14,10 @@ author: tonie
 
 {% for post in site.posts limit: 2 %}
 <hr/>
- {% if post.tags.size > 0 %}
-> 关于
-    {% for tag in post.tags %}
-      {{ tag }}
-    {% endfor %}
+> {% if post.tags.size > 0 %}
+> 关于{% for tag in post.tags %}
+        {{ tag }}
+      {% endfor %}
   {% else %}
 > 我的LISt:
   {% endif %}
