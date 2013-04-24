@@ -37,11 +37,15 @@ someasdiw
 </table>
 <br/>
 {% for post in site.posts limit: 3 %}
+
 <li> 
+
 {{ post.content | truncate }}
+
 </li>
+
 {% endfor %}
 
 
-[View More LISblogs In LISt.]({{ site.baseurl }}cat.html)
+> [View More LISblogs In LISt.]({{ site.baseurl }}cat.html)
 -----------------------------------------------------------
