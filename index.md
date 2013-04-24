@@ -23,5 +23,9 @@ author: tonie
 
 <br/>
 
+
+<label>
 > [View More LISblogs In LISt.]({{ site.baseurl }}cat.html)
 -----------------------------------------------------------
+
+</label>
