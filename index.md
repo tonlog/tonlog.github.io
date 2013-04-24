@@ -18,9 +18,9 @@ author: tonie
 > 关于
   <ul>
     {% for tag in post.tags %}
- <li style="list-style:none;width:10px;"><a href="/tag.html#{{ tag }}">{{ tag }}</a></li>
++ <li style="list-style:none;width:10px;"><a href="/tag.html#{{ tag }}">{{ tag }}</a></li>
     {% endfor %}
-    </ul>
+  </ul>
   {% else %}
 > 我的LISt:
   {% endif %}
