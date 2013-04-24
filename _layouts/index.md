@@ -4,7 +4,7 @@ layout: default
 
 
 	<navig>
-		<img src="http://farm4.staticflickr.com/3620/3428050744_cf3bc40508_z.jpg" style="width:100px"/>
+		<h4>Raven-404(LISblog):</h4>
 		<blockquote><div>
 					我是NJU的一名学生. 
 					LISblog是我的思考记录的平台.
