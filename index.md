@@ -26,7 +26,7 @@ someasdiw
 {% for post in site.posts limit: 6 %}
 <tr>
 	<td>
-> [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
++ [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 	
 	</td>
 	<td>
