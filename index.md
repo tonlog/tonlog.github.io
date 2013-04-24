@@ -22,10 +22,10 @@ someasdiw
 <img src="images/sprite_download.png" style="height:100px;width:100px" />
 
 <br/>
-{% for post in site.posts %}
+{% for post in site.posts limit: 10 %}
 
 > [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-{{ post.content | map}}
+{{ post.content}}
 <br/>
 
 {% endfor %}
