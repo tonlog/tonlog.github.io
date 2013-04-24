@@ -5,6 +5,7 @@ author: tonie
 ---
 <a id="forkme_banner" href="/">Home Page</a>
 {% include div_left.textile %}
+  <ul>
   {% for post in site.posts %}
     <li>
       <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
@@ -15,4 +16,5 @@ author: tonie
       </ul>
     </li>
   {% endfor %}
+  </ul>
 {% include div_right.textile %}
