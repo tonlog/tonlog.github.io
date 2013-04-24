@@ -10,8 +10,9 @@ author: tonie
     <li>
       <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
       <ul>
-        <li>
-          {{ post.date | date_to_string }}
+        <li style="list-style:none;">
+          written @{{ post.date | date_to_string }} with tags: a
+          a
         </li>
       </ul>
     </li>
