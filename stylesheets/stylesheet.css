@@ -262,6 +262,10 @@ table {
   margin-bottom: 20px;
   text-align: left;
  }
+ 
+table :hover, tr :hover {
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
 
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
