@@ -4,26 +4,20 @@ title: lisblog
 author: tonie
 ---
 <h3>欢迎到GitHub Pages.</h3>
-<!---
-<table>
-	<tr><td>asd</td></tr>
-	<tr><td>qwe</td></tr>
-</table>
 
-	<pre>
-		<code>
-			$ cd your_repo_root/repo_name
-			$ git fetch origin
-			$ git checkout gh-pages
-		</code>
-	</pre>
+<br/>
+{% for post in site.posts limit: 2 %}
 
-someasdiw
-<img src="images/sprite_download.png" style="height:100px;width:100px" />--->
+> {{ post.content}}
+</br>
+-------------------------------
+
+{% endfor %}
+<br/>
 
 <h3>最近的</h3>
 <table>
-{% for post in site.posts limit: 6 %}
+{% for post in site.posts limit: 5 %}
 <tr>
 	<td>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -35,15 +29,6 @@ someasdiw
 
 {% endfor %}
 </table>
-<br/>
-{% for post in site.posts limit: 4 %}
-
-> {{ post.content}}
-</br>
--------------------------------
-
-{% endfor %}
-
 
 > [View More LISblogs In LISt.]({{ site.baseurl }}cat.html)
 -----------------------------------------------------------
