@@ -10,7 +10,7 @@ tags:
 <table>
 <tr>
 {% for i in page.tags %}
-<td><a href="{{ site.baseurl }}tag.html#{{ i }}">{{ i }}</a></td>
+<td><a href="/tag.html#{{ i }}">{{ i }}</a></td>
 {% endfor %}
 </tr>
 </table>
