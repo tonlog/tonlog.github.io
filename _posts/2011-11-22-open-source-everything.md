@@ -6,10 +6,8 @@ tags: ['A', 'B']
 
 [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
 ====================================================
-tags:
-{% for i in page.tags %}
-<a href="/tag.html#{{ i }}">{{ i }}</a>
-{% endfor %}
+
+{{ page.tags }}
 
 <p class="meta">22 Nov 2011 - San Francisco</p>
 
