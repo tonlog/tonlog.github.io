@@ -17,6 +17,12 @@ categories:
 </navig>
 
 <div>
+  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+{% for i in post.tags %}
+tags: 
+<label><a href="{{ site.baseurl }}tag.html#{{ i }}">{{ i }}</a></label>
+{% endfor %}
 {{ content }}
 </div>
 
