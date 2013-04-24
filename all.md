@@ -12,7 +12,7 @@ author: tonie
       <ul>
         <li style="list-style:none;">
           written @{{ post.date | date_to_string }} 
-          {% if post.tags %}
+          {% if post.tags.size > 0 %}
             with tags: 
             {% for tag in post.tags %}
               {{ tag }}
