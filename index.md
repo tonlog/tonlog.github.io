@@ -4,12 +4,12 @@ title: lisblog
 author: tonie
 ---
 <h3>欢迎到GitHub Pages.</h3>
-
+<!---
 <table>
 	<tr><td>asd</td></tr>
 	<tr><td>qwe</td></tr>
 </table>
-<!---
+
 	<pre>
 		<code>
 			$ cd your_repo_root/repo_name
@@ -26,11 +26,10 @@ someasdiw
 {% for post in site.posts limit: 6 %}
 <tr>
 	<td>
-+ [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-	
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	</td>
 	<td>
-		{{ post.date | date_to_string }}
+		<label>{{ post.date | date_to_string }}</label>
 	</td>
 </tr>
 
