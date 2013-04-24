@@ -15,18 +15,18 @@ author: tonie
 
 <h3>最近的</h3>
 <table>
-{% for post in site.posts limit: 5 %}
+	{% for post in site.posts limit: 5 %}
 
-<tr>
-	<td>
-		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	</td>
-	<td>
+	<tr>
+		<td>
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</td>
+		<td>
 		<label>{{ post.date | date_to_string }}</label>
-	</td>
-</tr>
+		</td>
+	</tr>
 
-{% endfor %}
+	{% endfor %}
 </table>
 
 > [View More LISblogs In LISt.]({{ site.baseurl }}cat.html)
