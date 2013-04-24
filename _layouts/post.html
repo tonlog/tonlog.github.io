@@ -6,7 +6,7 @@ layout: default
 tags:
 <ul class="posts">
 {% for tag in page.tags limit:3 %}
-<li>{{ tag }}</li>
+<li><a href="/tag.html#{{tag}}">{{ tag }}</a></li>
 {% endfor %}
 </ul>
 categories:
