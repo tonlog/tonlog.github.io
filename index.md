@@ -36,10 +36,11 @@ someasdiw
 {% endfor %}
 </table>
 <br/>
-{% for post in site.posts limit: 3 %}
+{% for post in site.posts limit: 4 %}
 
-> {{ post.content | truncate }}
+> {{ post.content}}
 </br>
+-------------------------------
 
 {% endfor %}
 
