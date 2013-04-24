@@ -17,7 +17,7 @@ author: tonie
  {% if post.tags.size > 0 %}
 > 关于 
     {% for tag in post.tags %}
-      <a href="/tag.html#{{ tag }}">{{ tag }}</a>
+<a href="/tag.html#{{ tag }}">{{ tag }}</a>
     {% endfor %}
   :
   {% else %}
