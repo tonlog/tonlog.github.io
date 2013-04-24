@@ -22,7 +22,7 @@ someasdiw
 <img src="images/sprite_download.png" style="height:100px;width:100px" />
 
 <br/>
-{% for post in site.posts limit: 10 %}
+{% for post in site.posts limit: 2 %}
 
 > [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {{ post.content}}
