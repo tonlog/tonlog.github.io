@@ -6,7 +6,7 @@ tags: ['A', 'B']
 
 [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
 
-{% for i in post.tags %}
+{% for i in page.tags %}
 tags: 
 <label><a href="{{ site.baseurl }}tag.html#{{ i }}">{{ i }}</a></label>
 {% endfor %}
