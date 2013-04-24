@@ -21,7 +21,7 @@ author: tonie
 someasdiw
 <img src="images/sprite_download.png" style="height:100px;width:100px" />--->
 
-<h3>最近的一些文章</h3>
+<h3>最近的</h3>
 <table>
 {% for post in site.posts limit: 6 %}
 <tr>
