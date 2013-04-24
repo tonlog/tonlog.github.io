@@ -18,7 +18,6 @@ Keeping it private would provide a higher hurdle for competing Ruby-based Git ho
 After a small amount of debate we decided to open source Grit. I don't recall the specifics of the conversation but that decision nearly four years ago has led to what I think is one of our most important core values: open source (almost) everything.
 
 Why is it awesome to open source (almost) everything?
------------------------------------------------------
 
 If you do it right, open sourcing code is **great advertising** for you and your company. At GitHub we like to talk publicly about libraries and systems we've written that are still closed but destined to become open source. This technique has several advantages. It helps determine what to open source and how much care we should put into a launch. We recently open sourced Hubot, our chat bot, to widespread delight. Within two days it had 500 watchers on GitHub and 409 upvotes on Hacker News. This translates into goodwill for GitHub and more superfans than ever before.
 
@@ -37,7 +36,6 @@ Have you ever written an amazing library or tool at one job and then left to joi
 Lastly, **it's the right thing to do**. It's almost impossible to do anything these days without directly or indirectly executing huge amounts of open source code. If you use the internet, you're using open source. That code represents millions of man-hours of time that has been spent and then given away so that everyone may benefit. We all enjoy the benefits of open source software, and I believe we are all morally obligated to give back to that community. If software is an ocean, then open source is the rising tide that raises all ships.
 
 Ok, then what shouldn't I open source?
---------------------------------------
 
 That's easy. Don't open source anything that represents core business value.
 
@@ -61,7 +59,6 @@ Here are some examples of things we do open source and why:
 Notice that everything we keep closed has specific business value that could be compromised by giving it away to our competitors. Everything we open is a general purpose tool that can be used by all kinds of people and companies to build all kinds of things.
 
 What is the One True License?
------------------------------
 
 I prefer the MIT license and almost everything we open source at GitHub carries this license. I love this license for several reasons:
 
@@ -72,7 +69,6 @@ I prefer the MIT license and almost everything we open source at GitHub carries 
 * Everyone understands the legal implications of the MIT license. Weird licenses like the WTFPL and the Beer license pretend to be the "ultimate in free licenses" but utterly fail at this goal. These fringe licenses are too vague and unenforceable to be acceptable for use in some companies. On the other side, the GPL is too restrictive and dogmatic to be usable in many cases. I want everyone to benefit from my code. Everyone. That's what Open should mean, and that's what Free should mean.
 
 Rad, how do I get started?
---------------------------
 
 Easy, just flip that switch on your GitHub repository from private to public and tell the world about your software via your blog, Twitter, Hacker News, and over beers at your local pub. Then sit back, relax, and enjoy being part of something big.
 
