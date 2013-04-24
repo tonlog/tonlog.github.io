@@ -4,14 +4,6 @@ title: lisblog
 author: tonie
 ---
 
-{% for post in site.posts limit: 2 %}
-
-> {{ post.content}}
-</br>
-
-{% endfor %}
-
-<br/>
 
 <h3>最近的</h3>
 
@@ -20,6 +12,14 @@ author: tonie
   <label>{{ post.date | date_to_string }}</label>
 {% endfor %}
 
+{% for post in site.posts limit: 2 %}
+
+> {{ post.content}}
+</br>
+
+{% endfor %}
+
+<br/>
 
 > [View More LISblogs In LISt.]({{ site.baseurl }}cat.html)
 -----------------------------------------------------------
