@@ -12,7 +12,7 @@ author: tonie
     <ul>
       {% for post in tag[1] %} 
         <li>
-          <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">{{ post.title }}</a><br/>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br/>
           <ul><li>{{ post.date | date_to_string }}</li></ul>
         </li>
       {% endfor %}  
