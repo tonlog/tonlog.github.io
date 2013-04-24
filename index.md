@@ -14,7 +14,7 @@ author: tonie
 
 {% for post in site.posts limit: 2 %}
 <hr/>
- {% if post.tag.size > 0 %}
+ {% if post.tags.size > 0 %}
 > 关于 
     {% for tag in post.tags %}
       <a href="/tag.html#{{ tag }}">{{ tag }}</a>
