@@ -8,7 +8,7 @@ tags: ['A', 'B']
 ================
 
 {% for i in page.tags %}
-+ tags: {{ i }}
++ tags: [{{ i }}]({{ site.baseurl }}tag.html#{{ i }})
 {% endfor %}
 
 <p class="meta">22 Nov 2011 - San Francisco</p>
