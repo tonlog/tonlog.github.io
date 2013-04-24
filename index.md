@@ -19,10 +19,10 @@ author: tonie
     {% for tag in post.tags %}
       <a href="/tag.html#{{ tag }}">{{ tag }}</a>
     {% endfor %}
+  :
   {% else %}
-> 我
+> 我的LISt:
   {% endif %}
-> 的LISt:
 > {{ post.content }}
 </br>
 
