@@ -15,11 +15,12 @@ author: tonie
 {% for post in site.posts limit: 2 %}
 <hr/>
  {% if post.tags.size > 0 %}
-> 关于 
+> 关于
+  <ul>
     {% for tag in post.tags %}
- <a style="width:10px;" href="/tag.html#{{ tag }}">{{ tag }}</a>
+ <li style="list-style:none;width:10px;"><a href="/tag.html#{{ tag }}">{{ tag }}</a></li>
     {% endfor %}
-  :
+    </ul>
   {% else %}
 > 我的LISt:
   {% endif %}
