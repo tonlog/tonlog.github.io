@@ -11,10 +11,13 @@ author: tonie
       <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
       <ul>
         <li style="list-style:none;">
-          written @{{ post.date | date_to_string }} with tags: 
-          {% for tag in post.tags %}
-            {{ tag }}
-          {% endfor %}
+          written @{{ post.date | date_to_string }} 
+          {% if post.tags %}
+            with tags: 
+            {% for tag in post.tags %}
+              {{ tag }}
+            {% endfor %}
+          {% endif %}
         </li>
       </ul>
     </li>
