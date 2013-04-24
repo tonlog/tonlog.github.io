@@ -4,7 +4,7 @@ layout: default
 
 
 	<navig>
-		<img src="http://hdn.xnimg.cn/photos/hdn321/20130121/1810/h_large_kuQt_0ef0000013ac113e.jpg" style="width:100px"/>
+		<img src="http://farm4.staticflickr.com/3620/3428050744_cf3bc40508_z.jpg" style="width:100px"/>
 		<blockquote><div>
 					我是NJU的一名学生. 
 					LISblog是我的思考记录的平台.
