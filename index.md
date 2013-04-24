@@ -5,7 +5,6 @@ author: tonie
 ---
 <h3>欢迎到GitHub Pages.</h3>
 
-<br/>
 {% for post in site.posts limit: 2 %}
 
 > {{ post.content}}
