@@ -6,11 +6,9 @@ layout: default
 	<navig>
 		<ul>
 			<li>
-				<pre>
-这里是lisblog.
-嗯.
-
-				</pre>
+				<ul>
+					<li>这里是LISblog.</li>
+				</ul>
 			</li>
 			<li><a href="{{ site.baseurl }}all.html">所有</a><br/></li>
 			<li><a href="{{ site.baseurl }}cat.html">分类</a><br/></li>
