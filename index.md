@@ -3,15 +3,14 @@ layout: index
 title: lisblog
 author: tonie
 ---
-<h3>欢迎到GitHub Pages.</h3>
 
 {% for post in site.posts limit: 2 %}
 
 > {{ post.content}}
 </br>
--------------------------------
 
 {% endfor %}
+
 <br/>
 
 <h3>最近的</h3>
