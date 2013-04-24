@@ -4,7 +4,7 @@ layout: default
 
 
 	<navig>
-		<img src="http://www.baidu.com/img/shouye_b5486898c692066bd2cbaeda86d74448.gif"/>
+		<img src="http://hdn.xnimg.cn/photos/hdn321/20130121/1810/h_large_kuQt_0ef0000013ac113e.jpg" style="width:100px"/>
 		<ul>
 			<li>
 				<div>
