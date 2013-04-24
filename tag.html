@@ -8,7 +8,7 @@ author: tonie
   <h2>标签列表</h2>
   {% for tag in site.tags %}
     <div id="{{ tag[0] }}">
-    {{ tag[0] }}
+    <blockquote>{{ tag[0] }}</blockquote>
     <ul>
       {% for post in tag[1] %} 
         <li>
