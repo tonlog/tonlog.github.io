@@ -15,6 +15,11 @@ author: tonie
 {% for post in site.posts limit: 2 %}
 <hr/>
 > 我的LISt:
+  <li>
+    {% for tag in post.tags %}
+    {{ tag }}
+    {% endfor %}
+  </li>
 > {{ post.content }}
 </br>
 
