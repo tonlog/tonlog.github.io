@@ -16,6 +16,7 @@ author: tonie
 <h3>最近的</h3>
 <table>
 {% for post in site.posts limit: 5 %}
+
 <tr>
 	<td>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
