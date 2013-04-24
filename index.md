@@ -39,10 +39,10 @@ someasdiw
 {% for post in site.posts limit: 5 %}
 
 > {{ post.content | truncate }}
-<br/>
 
+<br/>
 {% endfor %}
 
 
 > [View More LISblogs In LISt.]({{ site.baseurl }}cat.html)
---------------------------------------------------
+-----------------------------------------------------------
