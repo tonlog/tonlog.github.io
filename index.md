@@ -39,7 +39,7 @@ someasdiw
 {% for post in site.posts limit: 2 %}
 
 > [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
-{{ post.content}}
+> {{ post.content[1] }}
 <br/>
 
 {% endfor %}
