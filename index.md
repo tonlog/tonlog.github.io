@@ -16,7 +16,7 @@ author: tonie
 
 {% for post in site.posts limit: 2 %}
 
-> {{ post.content | truncate}}
+> {{ post.content | truncate: 100}}
 </br>
 
 {% endfor %}
