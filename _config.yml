@@ -4,4 +4,4 @@ auto: true
 lsi: true
 tags: ['one', 'two']
 word: 'It is nevar put with the wrong end in front.'
-permalink: none
+permalink: /lisblog/:categories/:title.lisb
