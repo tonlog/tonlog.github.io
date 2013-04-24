@@ -5,9 +5,9 @@ tags: ['A', 'B']
 ---
 
 [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
-
-{% for i in page.tags %}
+====================================================
 tags: 
+{% for i in page.tags %}
 <label><a href="{{ site.baseurl }}tag.html#{{ i }}">{{ i }}</a></label>
 {% endfor %}
 
