@@ -5,7 +5,7 @@ author: tonie
 ---
 <h3>欢迎到GitHub Pages.</h3>
 
-<table>
+<!---<table>
 	<tr><td>asd</td></tr>
 	<tr><td>qwe</td></tr>
 </table>
@@ -19,8 +19,23 @@ author: tonie
 	</pre>
 
 someasdiw
-<img src="images/sprite_download.png" style="height:100px;width:100px" />
+<img src="images/sprite_download.png" style="height:100px;width:100px" />--->
 
+<h3>最近的一些文章</h3>
+<table>
+{% for post in site.posts limit: 6 %}
+<tr>
+	<td>
+> [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+	
+	</td>
+	<td>
+		{{ post.date | date_to_string }}
+	</td>
+</tr>
+
+{% endfor %}
+</table>
 <br/>
 {% for post in site.posts limit: 2 %}
 
