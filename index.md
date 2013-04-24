@@ -37,8 +37,9 @@ someasdiw
 </table>
 <br/>
 {% for post in site.posts limit: 3 %}
-> {{ post.content | textilize | truncate }}
-
+<li> 
+{{ post.content | truncate }}
+</li>
 {% endfor %}
 
 
