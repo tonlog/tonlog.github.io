@@ -38,7 +38,7 @@ someasdiw
 <br/>
 {% for post in site.posts limit: 2 %}
 
-> {{ post.content }}
+> {{ post.content | truncate: 300 }}
 <br/>
 
 {% endfor %}
