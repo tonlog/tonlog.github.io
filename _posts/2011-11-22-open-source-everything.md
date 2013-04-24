@@ -4,7 +4,7 @@ title: Open Source (Almost) Everything
 tags: ['A', 'B']
 ---
 
-{{ page.title }}
+[{{ page.title }}]({{ site.baseurl }}{{ page.url }})
 ================
 
 {% for i in page.tags %}
