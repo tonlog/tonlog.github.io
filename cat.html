@@ -8,12 +8,12 @@ author: tonie
   <h2>分类列表<h2>
   {% for cate in site.categories %}
     <div id="{{ cate[0] }}">
-      {{ cate[0] }}
+      <blockquote>{{ cate[0] }}</blockquote>
       <ul>
         {% for post in cate[1] %} 
           <li>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <li>{{ post.date | date_to_string }}</li>
+            <ul><li>{{ post.date | date_to_string }}</li></ul>
           </li>
         {% endfor %}  
       </ul>
