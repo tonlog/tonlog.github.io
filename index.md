@@ -12,10 +12,9 @@ author: tonie
   <label>{{ post.date | date_to_string }}</label>
 {% endfor %}
 
-> 我的LISt:
-
 {% for post in site.posts limit: 2 %}
 <hr/>
+> 我的LISt:
 > {{ post.content }}
 </br>
 
