@@ -21,11 +21,15 @@ layout: default
 </div>
 
 <div id="related">
-  <h2>相关LIStblog</h2>
+  <h3>相关LIStblog</h3>
   <ul class="posts">
+    {% if site.related_posts.size > 0 %}
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+    {% else %}
+      暂时没有.
+    {% endif %}
   </ul>
 </div>
 
